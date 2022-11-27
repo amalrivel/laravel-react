@@ -19,6 +19,7 @@ export default function UpdateProfileInformation({
       email: user.email,
     });
 
+  console.log(data);
   const submit = (e) => {
     e.preventDefault();
     patch(route("profile.update"));
