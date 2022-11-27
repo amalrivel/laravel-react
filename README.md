@@ -20,7 +20,7 @@
 
 # CDM dan PDM
 
-<>
+<https://raw.githubusercontent.com/amalrivel/laravel-react/main/CDM_PDM.drawio.png>
 
 # Diagram Analisis
 
