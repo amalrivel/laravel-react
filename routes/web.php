@@ -19,24 +19,25 @@ use App\Models\Post;
 */
 
 
-Route::get('/', function () {
-    return Inertia::render('index', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-        'posts' => Post::latest()->get(),
-    ]);
-});
-
 // Route::get('/', function () {
-//     return Inertia::render('Welcome', [
+//     return Inertia::render('index', [
 //         'canLogin' => Route::has('login'),
 //         'canRegister' => Route::has('register'),
 //         'laravelVersion' => Application::VERSION,
 //         'phpVersion' => PHP_VERSION,
+//         'posts' => Post::latest()->with('skus')->get(),
 //     ]);
 // });
+
+Route::get('/', function () {
+    return Inertia::render('Welcome', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+        'posts' => Post::latest()->with('sport')->with('user')->get(),
+    ]);
+});
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

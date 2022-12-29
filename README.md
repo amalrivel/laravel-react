@@ -14,6 +14,11 @@
 <img src="https://v4.mui.com/static/logo.png" height="150" alt="MUI Logo">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" height="150" alt="Tailwind Logo">
 
+## Database: PostgreSQL
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png
+" height="150" alt="PostgreSQL Logo">s
+
 # Timeline
 
 <https://docs.google.com/spreadsheets/d/1J-4tOXB3umzYCMdbpGHcUydIhN8CjNpC9d4_8Lq_GyQ/edit?usp=sharing>
